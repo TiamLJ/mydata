@@ -1,0 +1,16 @@
+RESTful API开发文档
+1、接口名称：RESTful
+2、接口功能：通过id查询用户信息
+3、接口地址：GET http://www.resetful.com/restful_war_exploded/users/:id
+4、参数：uid：查询id  必填
+5、返回的结果
+{
+    "httpstatus": 200,
+    "info": "okok",
+    "user": {
+        "userId": 1,
+        "userName": "jack",
+        "userpassword": null
+    }
+}
+
